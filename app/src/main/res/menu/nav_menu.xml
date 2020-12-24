@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="News Categories">
+
+            <menu>
+
+                <item android:id="@+id/gn"
+                    android:title="General News"
+                    android:icon="@drawable/general">
+
+                </item>
+
+                <item android:id="@+id/bn"
+                    android:title="Business News"
+                    android:icon="@drawable/business">
+
+                </item>
+
+                <item android:id="@+id/sn"
+                    android:title="Sports News"
+                    android:icon="@drawable/sports">
+
+                </item>
+
+                <item android:id="@+id/hn"
+                    android:title="Health News"
+                    android:icon="@drawable/health">
+
+                </item>
+
+                <item android:id="@+id/scin"
+                    android:title="Science News"
+                    android:icon="@drawable/science">
+
+                </item>
+
+                <item android:id="@+id/tn"
+                    android:title="Technology News"
+                    android:icon="@drawable/technology">
+
+                </item>
+
+                <item android:id="@+id/en"
+                    android:title="Entertainment News"
+                    android:icon="@drawable/entertainment">
+
+                </item>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="World News Channels">
+
+            <menu>
+
+                <item android:id="@+id/bbc_news"
+                    android:title="BBC News"
+                    android:icon="@drawable/ic_bbc">
+
+                </item>
+
+                <item android:id="@+id/cnn_news"
+                    android:title="CNN News"
+                    android:icon="@drawable/ic_cnn">
+
+                </item>
+
+                <item android:id="@+id/fox_news"
+                    android:title="Fox News"
+                    android:icon="@drawable/ic_fox">
+
+                </item>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="My Library">
+
+
+            <menu>
+
+                <item android:id="@+id/saved_news"
+                    android:title="Saved News Articles"
+                    android:icon="@drawable/ic_file_download_black_24dp">
+
+                </item>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Share">
+
+
+            <menu>
+
+                <item android:id="@+id/share_app"
+                    android:title="Share App"
+                    android:icon="@drawable/ic_share_black_24dp">
+                </item>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="About App">
+
+
+            <menu>
+
+                <item android:id="@+id/about_app"
+                    android:title="About App"
+                    android:icon="@drawable/ic_info_outline_black_24dp">
+
+                </item>
+
+                <item android:id="@+id/exit"
+                    android:title="Exit App"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"></item>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".ViewSavedNews">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_view_saved_full_post"
+        app:title="Full Post"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        app:titleTextColor="@color/colorPrimaryDark"
+        android:background="@color/colorPrimary">
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/view_saved_news"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_bar_load_saved_news"
+            app:layout_constraintLeft_toLeftOf="@id/view_saved_news"
+            app:layout_constraintRight_toRightOf="@id/view_saved_news"
+            app:layout_constraintBottom_toBottomOf="@id/view_saved_news"
+            app:layout_constraintTop_toTopOf="@id/view_saved_news"></ProgressBar>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
