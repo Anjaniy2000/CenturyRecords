@@ -66,6 +66,7 @@ public class Saved_News_Fragment extends Fragment {
         getSavedNewsArticles();
         recyclerView.setLayoutManager (new LinearLayoutManager(getActivity()));
         savedNewsItemAdapter = new SavedNewsItemAdapter(getActivity(),news_models);
+        savedNewsItemAdapter.notifyDataSetChanged();
         recyclerView.setAdapter(savedNewsItemAdapter);
 
     }
