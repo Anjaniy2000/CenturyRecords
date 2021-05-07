@@ -59,6 +59,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center|start"
                     android:textAllCaps="true"
+                    android:textStyle="bold"
                     android:textColor="@color/colorAccent"
                     android:textSize="12sp"></TextView>
 
@@ -67,6 +68,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center|start"
+                        android:textStyle="bold"
                         android:textColor="@color/colorPrimary"
                         android:textSize="12sp"></TextView>
 

@@ -48,9 +48,9 @@ public class MainActivity extends AppCompatActivity {
 
         //WILL GET MESSAGE FRAGMENT AS DEFAULT FRAGMENT.
         if(savedInstanceState == null){
-            main_toolbar.setTitle("Saved News Articles");
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new Saved_News_Fragment()).commit();
-            navigationView.setCheckedItem(R.id.saved_news);
+            main_toolbar.setTitle("General News");
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new General_News_Fragment()).commit();
+            navigationView.setCheckedItem(R.id.gn);
         }
 
         //CORE - LOGIC OF NAVIGATION_DRAWER + FRAMELAYOUT + FRAGMENTS: -

@@ -113,52 +113,6 @@ public class ViewSavedNews extends AppCompatActivity {
             intent.putExtra(Intent.EXTRA_TEXT, NEWS_ITEM_URL);
             startActivity(Intent.createChooser(intent, "Share This News Post Using:"));
         }
-
-        if(item.getItemId() == R.id.delete) {
-
-            AlertDialog.Builder builder;
-            builder = new AlertDialog.Builder(this);
-
-            builder.setMessage("Do You Want To Delete This News Article?")
-
-                    .setCancelable(false)
-
-                    //CODE FOR POSITIVE(YES) BUTTON: -
-                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            //ACTION FOR "YES" BUTTON: -
-                            Integer deleted_rows = saved_news_db.Delete_Saved_Article(NEWS_ITEM_URL);
-
-                            if(deleted_rows > 0){
-                                Toast.makeText(getApplicationContext(), "Successfully Deleted!", Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-                                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                                startActivity(intent);
-                            }
-                            else{
-                                Toast.makeText(getApplicationContext(),"Unsuccessful Deletion!",Toast.LENGTH_LONG).show();
-                            }
-                        }
-                    })
-
-                    //CODE FOR NEGATIVE(NO) BUTTON: -
-                    .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            //ACTION FOR "NO" BUTTON: -
-                            dialog.cancel();
-
-                        }
-                    });
-
-            //CREATING A DIALOG-BOX: -
-            AlertDialog alertDialog = builder.create();
-            //SET TITLE MAUALLY: -
-            alertDialog.setTitle("Delete");
-            alertDialog.show();
-        }
         return (true);
     }
 }
