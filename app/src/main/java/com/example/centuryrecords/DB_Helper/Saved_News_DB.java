@@ -112,7 +112,7 @@ public class Saved_News_DB extends SQLiteOpenHelper {
         return objects;
     }
 
-    //DISPLAY - OPERATION: -
+    //DELETE - OPERATION: -
 
     public Integer Delete_Saved_Article(String url){
 

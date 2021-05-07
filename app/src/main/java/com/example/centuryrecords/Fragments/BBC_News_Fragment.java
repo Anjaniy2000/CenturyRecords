@@ -105,8 +105,9 @@ public class BBC_News_Fragment extends Fragment {
         });
 
         jsonObjectRequest.setRetryPolicy(new DefaultRetryPolicy(
-                0, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
-        ));
+                DefaultRetryPolicy.DEFAULT_TIMEOUT_MS,
+                DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
 
         MySingleton.getInstance(getActivity()).addToRequestQueue(jsonObjectRequest);
     }
