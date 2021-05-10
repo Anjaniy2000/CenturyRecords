@@ -9,12 +9,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.centuryrecords.DB_Helper.Saved_News_DB;
+import com.example.centuryrecords.LocalDB.Saved_News_DB;
 import com.example.centuryrecords.Models.NewsModelClass;
 import com.example.centuryrecords.R;
 import com.example.centuryrecords.ViewSavedNews;

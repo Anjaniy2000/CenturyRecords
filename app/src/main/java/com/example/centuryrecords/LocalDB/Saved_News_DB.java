@@ -1,4 +1,4 @@
-package com.example.centuryrecords.DB_Helper;
+package com.example.centuryrecords.LocalDB;
 
 import android.content.ContentValues;
 import android.content.Context;

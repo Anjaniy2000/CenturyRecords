@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import com.example.centuryrecords.Adapters.SavedNewsItemAdapter;
-import com.example.centuryrecords.DB_Helper.Saved_News_DB;
+import com.example.centuryrecords.LocalDB.Saved_News_DB;
 import com.example.centuryrecords.Models.NewsModelClass;
 import com.example.centuryrecords.R;
 import java.util.ArrayList;

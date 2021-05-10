@@ -17,7 +17,7 @@ import android.webkit.WebView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.example.centuryrecords.DB_Helper.Saved_News_DB;
+import com.example.centuryrecords.LocalDB.Saved_News_DB;
 
 public class ViewSavedNews extends AppCompatActivity {
 

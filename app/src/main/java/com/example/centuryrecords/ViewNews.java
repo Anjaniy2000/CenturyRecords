@@ -16,7 +16,8 @@ import android.view.View;
 import android.webkit.WebView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import com.example.centuryrecords.DB_Helper.Saved_News_DB;
+
+import com.example.centuryrecords.LocalDB.Saved_News_DB;
 import com.google.android.material.snackbar.Snackbar;
 
 public class ViewNews extends AppCompatActivity {
