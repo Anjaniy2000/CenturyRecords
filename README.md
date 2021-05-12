@@ -47,6 +47,11 @@ We Can Browse, Read and Share and Download the News Articles.</h2>
 
 ![Screenshot](/screenshots/saved_news_2..jpg)
 
+<h3>Visit Saved Article: </h3>
+
+![Screenshot](/screenshots/visit_saved_news.jpg)
+
+
 
 
 
