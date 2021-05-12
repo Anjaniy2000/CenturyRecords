@@ -31,5 +31,10 @@ We Can Browse, Read and Share and Download the News Articles.</h2>
 
 ![Screenshot](/screenshots/view_news_3.jpg)
 
+<h3>Share News Articles: </h3>
+
+![Screenshot](/screenshots/share_news.jpg)
+
+
 
 
