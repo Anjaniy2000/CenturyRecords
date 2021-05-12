@@ -23,4 +23,13 @@ We Can Browse, Read and Share and Download the News Articles.</h2>
 
 ![Screenshot](/screenshots/entertainment_news.jpg)
 
+<h3>View News Articles: </h3>
+
+![Screenshot](/screenshots/view_news_1.jpg)
+
+![Screenshot](/screenshots/view_news_2.jpg)
+
+![Screenshot](/screenshots/view_news_3.jpg)
+
+
 
