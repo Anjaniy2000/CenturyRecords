@@ -51,6 +51,10 @@ We Can Browse, Read and Share and Download the News Articles.</h2>
 
 ![Screenshot](/screenshots/visit_saved_news.jpg)
 
+<h3>Share App: </h3>
+
+![Screenshot](/screenshots/share_app.jpg)
+
 
 
 
