@@ -43,6 +43,10 @@ We Can Browse, Read and Share and Download the News Articles.</h2>
 
 ![Screenshot](/screenshots/saved_news.jpg)
 
+![Screenshot](/screenshots/saved_news_1.jpg)
+
+![Screenshot](/screenshots/saved_news_2.jpg)
+
 
 
 
