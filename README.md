@@ -6,3 +6,10 @@ We Can Browse, Read and Share and Download the News Articles.</h2>
 <h3>SplashScreen: </h3>
 
 ![Screenshot](/screenshots/splash_screen.png)
+
+<h3>Navigation Drawer: </h3>
+
+![Screenshot](/screenshots/navigation_drawer_1.jpg)
+
+![Screenshot](/screenshots/navigation_drawer_2.jpg)
+
