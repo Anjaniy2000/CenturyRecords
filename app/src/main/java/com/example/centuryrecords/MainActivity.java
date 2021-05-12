@@ -121,11 +121,11 @@ public class MainActivity extends AppCompatActivity {
                         shareintent.setType("text/plain");
 
                         shareintent.putExtra(Intent.EXTRA_SUBJECT,"Insert Subject Here");
-                        String app_url = "https://www.dropbox.com/s/clk6yaxmorybioj/Century%20Records.apk?dl=0";
+                        String app_url = "https://drive.google.com/file/d/1c57hNN76VSob_e_q-nMjPvAOlL-hZlX0/view?usp=sharing";
 
                         shareintent.putExtra(android.content.Intent.EXTRA_TEXT,app_url);
 
-                        startActivity(Intent.createChooser(shareintent,"Share Via:"));
+                        startActivity(Intent.createChooser(shareintent,"Share This App Using:"));
                         break;
 
                     case R.id.about_app:
