@@ -10,17 +10,13 @@ We Can Browse, Read and Share and Download the News Articles.</h2>
 <h3>Navigation Drawer: </h3>
 
 ![Screenshot](/screenshots/navigation_drawer_1.jpg)
-
 ![Screenshot](/screenshots/navigation_drawer_2.jpg)
 
 <h3>News: </h3>
 
 ![Screenshot](/screenshots/general_news.jpg)
-
 ![Screenshot](/screenshots/cnn_news.jpg)
-
 ![Screenshot](/screenshots/fox_news.jpg)
-
 ![Screenshot](/screenshots/entertainment_news.jpg)
 
 <h3>View News Articles: </h3>
