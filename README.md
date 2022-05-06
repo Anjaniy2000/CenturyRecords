@@ -22,9 +22,7 @@ We Can Browse, Read and Share and Download the News Articles.</h2>
 <h3>View News Articles: </h3>
 
 ![Screenshot](/screenshots/view_news_1.jpg)
-
 ![Screenshot](/screenshots/view_news_2.jpg)
-
 ![Screenshot](/screenshots/view_news_3.jpg)
 
 <h3>Share News Articles: </h3>
@@ -38,9 +36,7 @@ We Can Browse, Read and Share and Download the News Articles.</h2>
 <h3>Saved Articles: </h3>
 
 ![Screenshot](/screenshots/saved_news.jpg)
-
 ![Screenshot](/screenshots/saved_news_1.jpg)
-
 ![Screenshot](/screenshots/saved_news_2..jpg)
 
 <h3>Visit Saved Article: </h3>
